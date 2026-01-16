@@ -1,10 +1,10 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(138, 102, 102);
   display: flex;
   justify-content: center;
-  align-items: center;
-  font-size: 120px;
+  white-space: nowrap;
+  font-size: 140px;
+  overflow: hidden;
 }
 
 .box span {
@@ -16,7 +16,9 @@ body {
   bottom: 0;
   width: 50%;
   height: 100%;
-  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+  color: rgb(255, 255, 255);
+  background-color: rgb(184, 81, 81);
 }
 
 .box span:nth-child(2) {
@@ -24,10 +26,34 @@ body {
   bottom: 0;
   width: 50%;
   height: 100%;
+  overflow: hidden;
   background-color: rgb(255, 255, 255);
 }
 
-.box span:nth-child(3) {
+.text {
   width: 50%;
   margin-top: 330px;
+  left: 0;
+  animation: word 10s infinite linear;
+}
+
+@keyframes word {
+  0% {
+    transform: translateX(-15%);
+
+    color: rgb(0, 0, 0);
+  }
+
+  50% {
+    color: rgb(0, 0, 0);
+  }
+
+  53% {
+    color: rgb(255, 0, 0);
+  }
+
+  100% {
+    transform: translateX(200%);
+    color: rgb(255, 0, 0);
+  }
 }
