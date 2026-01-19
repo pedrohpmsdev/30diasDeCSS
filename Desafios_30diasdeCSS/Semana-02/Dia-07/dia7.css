@@ -1,0 +1,110 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+  background-color: rgb(143, 2, 172);
+}
+
+.square span {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square span:nth-child(1) {
+  width: 60px;
+  height: 60px;
+  left: 895px;
+  border-radius: 15%;
+  background-color: rgb(255, 255, 255);
+  animation-name: slide3;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slide1 {
+  0% {
+    transform: translateY(-30px);
+  }
+
+  33% {
+    transform: translateX(-30px);
+  }
+
+  66% {
+    transform: translateY(30px);
+  }
+
+  100% {
+    transform: translateX(30px);
+  }
+}
+
+.square span:nth-child(2) {
+  width: 60px;
+  height: 60px;
+  left: 840px;
+  top: 480px;
+  border-radius: 15%;
+  background-color: rgb(255, 255, 255);
+  animation-name: slide2;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slide2 {
+  0% {
+    transform: translateY(-30px);
+  }
+
+  33% {
+    transform: translateX(-30px);
+  }
+
+  66% {
+    transform: translateY(30px);
+  }
+
+  100% {
+    transform: translateX(30px);
+  }
+}
+
+.square span:nth-child(3) {
+  width: 60px;
+  height: 60px;
+  left: 950px;
+  top: 480px;
+
+  border-radius: 15%;
+  background-color: rgb(255, 255, 255);
+  animation-name: slide3;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slide3 {
+  0% {
+    transform: translateY(-30px);
+  }
+
+  33% {
+    transform: translateX(-30px);
+  }
+
+  66% {
+    transform: translateY(30px);
+  }
+
+  100% {
+    transform: translateX(30px);
+  }
+}
+
+/* CORRIGIR O MODO COMO ELE PERCORRE O CAMINHO E SETAR O DELAY */
