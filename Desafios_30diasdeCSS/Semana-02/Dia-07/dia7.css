@@ -1,110 +1,119 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 80vh;
+  width: 100vw;
+  height: 100vh;
   background-color: rgb(143, 2, 172);
 }
 
-.square span {
-  position: absolute;
+.square {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px 50px;
+}
+
+.square span {
+  display: flex;
+  gap: 20vh 20vw;
+  width: 70px;
+  height: 70px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15%;
 }
 
 .square span:nth-child(1) {
-  width: 60px;
-  height: 60px;
-  left: 895px;
-  border-radius: 15%;
-  background-color: rgb(255, 255, 255);
-  animation-name: slide3;
+  margin-left: 20%;
+  animation-name: slide1;
   animation-duration: 2s;
-  animation-timing-function: linear;
+  animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
 }
 
 @keyframes slide1 {
   0% {
-    transform: translateY(-30px);
+    transform: translate(0px, 0px);
   }
 
-  33% {
-    transform: translateX(-30px);
+  25% {
+    transform: translate(120px, 0px);
   }
 
-  66% {
-    transform: translateY(30px);
+  50% {
+    transform: translate(120px, 120px);
+  }
+
+  75% {
+    transform: translate(0px, 120px);
   }
 
   100% {
-    transform: translateX(30px);
+    transform: translate(0px, 0px);
   }
 }
 
 .square span:nth-child(2) {
-  width: 60px;
-  height: 60px;
-  left: 840px;
-  top: 480px;
-  border-radius: 15%;
-  background-color: rgb(255, 255, 255);
   animation-name: slide2;
   animation-duration: 2s;
-  animation-timing-function: linear;
+  animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
 }
 
 @keyframes slide2 {
   0% {
-    transform: translateY(-30px);
+    transform: translate(0px, 0px);
   }
 
-  33% {
-    transform: translateX(-30px);
+  25% {
+    transform: translate(0px, 120px);
   }
 
-  66% {
-    transform: translateY(30px);
+  50% {
+    transform: translate(-120px, 120px);
+  }
+
+  75% {
+    transform: translate(-120px, 0px);
   }
 
   100% {
-    transform: translateX(30px);
+    transform: translate(0px, 0px);
   }
 }
 
 .square span:nth-child(3) {
-  width: 60px;
-  height: 60px;
-  left: 950px;
-  top: 480px;
-
-  border-radius: 15%;
-  background-color: rgb(255, 255, 255);
+  margin-left: 20%;
   animation-name: slide3;
   animation-duration: 2s;
-  animation-timing-function: linear;
+  animation-timing-function: ease-in-out;
+
   animation-iteration-count: infinite;
 }
 
 @keyframes slide3 {
   0% {
-    transform: translateY(-30px);
+    transform: translate(0px, 0px);
   }
 
-  33% {
-    transform: translateX(-30px);
+  25% {
+    transform: translate(0px, -120px);
   }
 
-  66% {
-    transform: translateY(30px);
+  50% {
+    transform: translate(120px, -120px);
+  }
+
+  75% {
+    transform: translate(120px, 0px);
   }
 
   100% {
-    transform: translateX(30px);
+    transform: translate(0px, 0px);
   }
 }
-
-/* CORRIGIR O MODO COMO ELE PERCORRE O CAMINHO E SETAR O DELAY */
