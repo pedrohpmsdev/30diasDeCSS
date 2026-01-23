@@ -1,0 +1,129 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 100vh;
+  background-color: #1e2436;
+}
+
+.newton-pendulum {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  background-color: rgb(56, 82, 82);
+}
+
+/* Da para por uma ancora sendo a div e os targets os fios com as bolas juntas, aí usa as top = anchor(top)*/
+.newton-pendulum span {
+  position: absolute;
+}
+
+.newton-pendulum span:nth-child(1) {
+  width: 15vw;
+  height: 1vh;
+  background-color: white;
+  top: 20%;
+}
+
+.newton-pendulum span:nth-child(2) {
+  width: 2px;
+  height: 20vh;
+  background-color: white;
+  top: 20%;
+}
+
+.newton-pendulum span:nth-child(3) {
+  width: 2px;
+  height: 20vh;
+  background-color: white;
+  top: 20%;
+  left: 44%;
+}
+
+.newton-pendulum span:nth-child(4) {
+  width: 2px;
+  height: 20vh;
+  background-color: white;
+  top: 20%;
+  left: 56%;
+}
+
+.newton-pendulum span:nth-child(5) {
+  width: 2px;
+  height: 20vh;
+  background-color: white;
+  top: 20%;
+  left: 62%;
+}
+
+.newton-pendulum span:nth-child(6) {
+  width: 2px;
+  height: 20vh;
+  background-color: white;
+  top: 20%;
+  left: 38%;
+  animation: rotate 2s infinite linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg, 0deg);
+  }
+  25% {
+    transform: rotate(45deg, 45deg);
+  }
+}
+
+.newton-pendulum span:nth-child(7) {
+  width: 57px;
+  height: 57px;
+  border-radius: 50%;
+  background-color: white;
+  top: 60%;
+  left: 59%;
+}
+
+.newton-pendulum span:nth-child(8) {
+  width: 57px;
+  height: 57px;
+  border-radius: 50%;
+  background-color: white;
+  top: 60%;
+  left: 53%;
+}
+
+.newton-pendulum span:nth-child(9) {
+  width: 57px;
+  height: 57px;
+  border-radius: 50%;
+  background-color: white;
+  top: 60%;
+  left: 47%;
+}
+
+.newton-pendulum span:nth-child(10) {
+  width: 57px;
+  height: 57px;
+  border-radius: 50%;
+  background-color: white;
+  top: 60%;
+  left: 41%;
+}
+
+.newton-pendulum span:nth-child(11) {
+  width: 57px;
+  height: 57px;
+  border-radius: 50%;
+  background-color: white;
+  top: 60%;
+  left: 35%;
+}

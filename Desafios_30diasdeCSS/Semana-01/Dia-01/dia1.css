@@ -1,19 +1,16 @@
 body {
     display: flex;
-    margin-left: 35rem;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 200px;
-    width: 100px;
+    width: auto;
     height: 100vh;
-    margin-left: 55rem;
     background-color: antiquewhite;
 }
 
 .images {
     position: relative;
-    width: 50px;
-    height: 25vh;
+    width: 100px;
+    height: 100px; 
 }
 
 .images img {
