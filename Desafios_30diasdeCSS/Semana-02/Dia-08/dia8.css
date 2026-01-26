@@ -44,12 +44,6 @@ body {
   }
 }
 
-.heart {
-  position: relative;
-  width: 100px;
-  height: 100px;
-}
-
 .heart span {
   position: absolute;
   background-color: red;
