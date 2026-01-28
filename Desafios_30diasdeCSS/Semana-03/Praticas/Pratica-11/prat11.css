@@ -1,1 +1,140 @@
- 
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 100vh;
+  background-color: rgb(10, 186, 255);
+}
+
+.rainbow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 70vw;
+  height: 70vh;
+}
+
+.rainbow span {
+  position: absolute;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.rainbow span:nth-child(1) {
+  border: 15px solid red;
+  width: 33vw;
+  height: 56vh;
+}
+
+.rainbow span:nth-child(2) {
+  border: 15px solid rgb(255, 145, 0);
+  width: 31.5vw;
+  height: 53vh;
+}
+
+.rainbow span:nth-child(3) {
+  border: 15px solid yellow;
+  width: 30vw;
+  height: 50vh;
+}
+
+.rainbow span:nth-child(4) {
+  border: 15px solid rgb(10, 231, 10);
+  width: 28.5vw;
+  height: 47vh;
+}
+
+.rainbow span:nth-child(5) {
+  border: 15px solid rgb(0, 162, 255);
+  width: 27vw;
+  height: 44vh;
+}
+
+.rainbow span:nth-child(6) {
+  border: 15px solid blue;
+  width: 25.5vw;
+  height: 41vh;
+}
+
+.rainbow span:nth-child(7) {
+  border: 15px solid magenta;
+  width: 24vw;
+  height: 38vh;
+}
+
+.rainbow span:nth-child(8) {
+  width: 50vw;
+  z-index: 2;
+  height: 38vh;
+  top: 55%;
+  border-radius: 0%;
+  background-color: rgb(10, 186, 255);
+}
+
+.rainbow span:nth-child(9) {
+  z-index: 3;
+  width: 8vw;
+  height: 14vh;
+  background-color: white;
+  border-radius: 50%;
+  bottom: 26%;
+  left: 26%;
+}
+
+.rainbow span:nth-child(10) {
+  z-index: 3;
+  width: 8vw;
+  height: 15vh;
+  background-color: white;
+  border-radius: 50%;
+  bottom: 30%;
+  left: 23%;
+}
+
+.rainbow span:nth-child(11) {
+  z-index: 3;
+  width: 8vw;
+  height: 14vh;
+  background-color: white;
+  border-radius: 50%;
+  bottom: 26%;
+  left: 20%;
+}
+
+.rainbow span:nth-child(12) {
+  z-index: 3;
+  width: 8vw;
+  height: 14vh;
+  background-color: white;
+  border-radius: 50%;
+  bottom: 26%;
+  left: 61%;
+}
+
+.rainbow span:nth-child(13) {
+  z-index: 3;
+  width: 8vw;
+  height: 15vh;
+  background-color: white;
+  border-radius: 50%;
+  bottom: 30%;
+  left: 64%;
+}
+
+.rainbow span:nth-child(14) {
+  z-index: 3;
+  width: 8vw;
+  height: 14vh;
+  background-color: white;
+  border-radius: 50%;
+  bottom: 26%;
+  left: 67%;
+}
