@@ -32,36 +32,37 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-  width: 80vw;
-  height: 50vh;
+  width: 72vw;
+  height: 25vh;
+  top: 5vh;
 }
 
 .all span {
   position: absolute;
 }
 
-.text {
-  color: rgb(10, 10, 15);
-  opacity: 0.3;
-  z-index: 2;
+.all span:nth-child(1) {
+  background-clip: text;
+  color: rgba(2, 18, 255, 0.2);
+  left: 1vw;
+  top: -1vh;
+  width: 72vw;
+  height: 25vh;
 }
 
-.test {
+.all span:nth-child(2) {
+  opacity: 0.5;
   background-color: blue;
+  background-clip: text;
+  left: 1vw;
+  top: -1vh;
+  color: rgba(2, 18, 255, 0.2);
   width: 0vw;
-  height: 20vh;
-  z-index: 1;
-  left: 5%;
-  animation: translateR 2s infinite linear;
+  height: 25vh;
+  transition: 1s;
 }
 
-@keyframes translateR {
-  to {
-    width: 75vw;
-  }
-}
-
-span:hover {
+.all:hover span:nth-child(2) {
+  width: 75vw;
   opacity: 1;
-  color: rgb(0, 0, 0);
 }
