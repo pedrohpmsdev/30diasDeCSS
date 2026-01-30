@@ -14,126 +14,67 @@ body {
 }
 
 .newton-pendulum {
-  position: relative;
   display: flex;
   justify-content: center;
+  border-top: 15px solid white;
   width: 25vw;
   height: 50vh;
 }
 
 .newton-pendulum span {
-  position: absolute;
-}
-
-.pendulum {
   position: relative;
-  display: flex;
-  justify-content: center;
-  width: 25vw;
-  height: 35vh;
+  transform-origin: top;
+  width: 0.2vw;
+  height: 30vh;
+  background-color: white;
+  margin: 0vh 1.9vw;
 }
 
-.pendulum span {
+.newton-pendulum span:before {
   position: absolute;
+  content: "";
+  width: 4vw;
+  height: 8vh;
+  background-color: white;
+  border-radius: 50%;
+  bottom: 0;
+  left: -2vw;
 }
 
 .newton-pendulum span:nth-child(1) {
-  width: 15vw;
-  height: 1vh;
-  background-color: white;
-  top: 20%;
+  animation: pendulum1 2s infinite ease-in-out;
 }
 
-.pendulum span:nth-child(1) {
-  width: 3vw;
-  height: 6vh;
-  border-radius: 50%;
-  background-color: white;
-  top: 60%;
-  left: 68%;
-}
-
-.pendulum span:nth-child(2) {
-  width: 3vw;
-  height: 6vh;
-  border-radius: 50%;
-  background-color: white;
-  top: 60%;
-  left: 68%;
-}
-
-.newton-pendulum span:nth-child(2) {
-  width: 2px;
-  height: 20vh;
-  background-color: white;
-  top: 20%;
-  left: 66%;
-}
-
-.newton-pendulum span:nth-child(3) {
-  width: 2px;
-  height: 20vh;
-  background-color: white;
-  top: 20%;
-  left: 38%;
-}
-
-.newton-pendulum span:nth-child(4) {
-  width: 2px;
-  height: 20vh;
-  background-color: white;
-  top: 20%;
-  left: 50%;
+@keyframes pendulum1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(45deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 .newton-pendulum span:nth-child(5) {
-  width: 2px;
-  height: 20vh;
-  background-color: white;
-  top: 20%;
-  left: 62%;
+  animation: pendulum2 2s infinite ease-in-out 1s;
 }
 
-.newton-pendulum span:nth-child(6) {
-  width: 2px;
-  height: 20vh;
-  background-color: white;
-  top: 20%;
-  left: 74%;
-}
-
-.newton-pendulum span:nth-child(8) {
-  width: 3vw;
-  height: 6vh;
-  border-radius: 50%;
-  background-color: white;
-  top: 60%;
-  left: 56%;
-}
-
-.newton-pendulum span:nth-child(9) {
-  width: 3vw;
-  height: 6vh;
-  border-radius: 50%;
-  background-color: white;
-  top: 60%;
-  left: 44%;
-}
-
-.newton-pendulum span:nth-child(10) {
-  width: 3vw;
-  height: 6vh;
-  border-radius: 50%;
-  background-color: white;
-  top: 60%;
-  left: 32%;
-}
-
-.newton-pendulum span:nth-child(11) {
-  width: 3vw;
-  height: 6vh;
-  border-radius: 50%;
-  background-color: white;
-  top: 60%;
-  left: 20%;
+@keyframes pendulum2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-45deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }

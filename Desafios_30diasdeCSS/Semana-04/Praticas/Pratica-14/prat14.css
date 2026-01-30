@@ -1,0 +1,270 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 100vh;
+  background-color: rgb(19, 22, 66);
+}
+
+.robot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 50vw;
+  height: 80vh;
+}
+
+.robot span {
+  z-index: 2;
+  position: absolute;
+}
+
+.robot span:nth-child(1) {
+  width: 30vw;
+  height: 60vh;
+  border-radius: 20%;
+  background-color: rgb(229, 238, 240);
+}
+
+.robot span:nth-child(2) {
+  width: 15vw;
+  height: 22vh;
+  top: 20vh;
+  background: linear-gradient(to top, rgb(73, 73, 73), rgb(26, 26, 26), black);
+}
+
+.robot span:nth-child(3) {
+  width: 10vw;
+  height: 22vh;
+  left: 12vw;
+  top: 20vh;
+  border-radius: 50%;
+  background: linear-gradient(to top, rgb(73, 73, 73), rgb(26, 26, 26), black);
+}
+
+.robot span:nth-child(4) {
+  width: 10vw;
+  height: 22vh;
+  left: 28vw;
+  top: 20vh;
+  border-radius: 50%;
+  background: linear-gradient(to top, rgb(73, 73, 73), rgb(26, 26, 26), black);
+}
+
+.robot span:nth-child(5) {
+  width: 5vw;
+  height: 10vh;
+  left: 28vw;
+  top: 26vh;
+  rotate: z 90deg;
+  background: linear-gradient(to top, rgb(13, 102, 218), rgb(11, 195, 228));
+}
+
+.robot span:nth-child(6) {
+  width: 5vw;
+  height: 10vh;
+  left: 28vw;
+  top: 21vh;
+  border-radius: 50%;
+  rotate: z 90deg;
+  background: linear-gradient(to top, rgb(13, 102, 218), rgb(11, 195, 228));
+}
+
+.robot span:nth-child(7) {
+  width: 5vw;
+  height: 10vh;
+  left: 28vw;
+  top: 31vh;
+  rotate: z 90deg;
+  border-radius: 50%;
+  background: linear-gradient(to top, rgb(13, 102, 218), rgb(11, 195, 228));
+}
+
+.robot span:nth-child(5) {
+  width: 5vw;
+  height: 10vh;
+  left: 28vw;
+  top: 26vh;
+  rotate: z 90deg;
+  background: linear-gradient(to top, rgb(13, 102, 218), rgb(11, 195, 228));
+}
+
+.robot span:nth-child(6) {
+  width: 5vw;
+  height: 10vh;
+  left: 28vw;
+  top: 21vh;
+  border-radius: 50%;
+  rotate: z 90deg;
+  background: linear-gradient(to top, rgb(13, 102, 218), rgb(11, 195, 228));
+}
+
+.robot span:nth-child(7) {
+  width: 5vw;
+  height: 10vh;
+  left: 28vw;
+  top: 31vh;
+  rotate: z 90deg;
+  border-radius: 50%;
+  background: linear-gradient(to top, rgb(13, 102, 218), rgb(11, 195, 228));
+}
+
+.robot span:nth-child(8) {
+  width: 5vw;
+  height: 10vh;
+  left: 17vw;
+  top: 26vh;
+  rotate: z 90deg;
+  background: linear-gradient(to top, rgb(13, 102, 218), rgb(11, 195, 228));
+}
+
+.robot span:nth-child(9) {
+  width: 5vw;
+  height: 10vh;
+  left: 17vw;
+  top: 21vh;
+  border-radius: 50%;
+  rotate: z 90deg;
+  background: linear-gradient(to top, rgb(13, 102, 218), rgb(11, 195, 228));
+}
+
+.robot span:nth-child(10) {
+  width: 5vw;
+  height: 10vh;
+  left: 17vw;
+  top: 31vh;
+  rotate: z 90deg;
+  border-radius: 50%;
+  background: linear-gradient(to top, rgb(13, 102, 218), rgb(11, 195, 228));
+}
+
+.robot span:nth-child(11) {
+  width: 10vw;
+  height: 13vh;
+  top: 50vh;
+  background: linear-gradient(to top, rgb(73, 73, 73), rgb(26, 26, 26), black);
+}
+
+.robot span:nth-child(12) {
+  width: 6.5vw;
+  left: 17vw;
+  height: 13vh;
+  top: 50vh;
+  border-radius: 50%;
+  background: linear-gradient(to top, rgb(73, 73, 73), rgb(26, 26, 26), black);
+}
+
+.robot span:nth-child(13) {
+  width: 6.5vw;
+  left: 27vw;
+  height: 13vh;
+  top: 50vh;
+  border-radius: 50%;
+  background: linear-gradient(to top, rgb(73, 73, 73), rgb(26, 26, 26), black);
+}
+
+.robot span:nth-child(14) {
+  width: 10vw;
+  height: 10vh;
+  top: 0vh;
+  background: linear-gradient(
+    to top,
+    rgb(245, 241, 41),
+    rgb(203, 241, 29),
+    rgb(211, 255, 16)
+  );
+}
+
+.robot span:nth-child(15) {
+  width: 5vw;
+  left: 17.5vw;
+  height: 10vh;
+  top: 0vh;
+  border-radius: 50%;
+  background: linear-gradient(
+    to top,
+    rgb(245, 241, 41),
+    rgb(203, 241, 29),
+    rgb(211, 255, 16)
+  );
+}
+
+.robot span:nth-child(16) {
+  width: 5vw;
+  left: 27.5vw;
+  height: 10vh;
+  top: 0vh;
+  border-radius: 50%;
+  background: linear-gradient(
+    to top,
+    rgb(245, 241, 41),
+    rgb(203, 241, 29),
+    rgb(211, 255, 16)
+  );
+}
+
+.robot span:nth-child(17) {
+  z-index: 1;
+  width: 20vw;
+  left: 23vw;
+  height: 40vh;
+  top: 20vh;
+  border-radius: 25%;
+  background: linear-gradient(to top, rgb(255, 83, 83), rgb(247, 57, 57), red);
+}
+
+.robot span:nth-child(18) {
+  z-index: 1;
+  width: 20vw;
+  left: 7vw;
+  height: 40vh;
+  top: 20vh;
+  border-radius: 25%;
+  background: linear-gradient(to top, rgb(255, 83, 83), rgb(247, 57, 57), red);
+}
+
+.robot span:nth-child(19) {
+  z-index: 0;
+  width: 1.5vw;
+  left: 8vw;
+  height: 35vh;
+  top: 7vh;
+  background: linear-gradient(to top, rgb(255, 83, 83), rgb(247, 57, 57), red);
+}
+
+.robot span:nth-child(20) {
+  z-index: 0;
+  width: 1.5vw;
+  left: 40.5vw;
+  height: 35vh;
+  top: 7vh;
+  background: linear-gradient(to top, rgb(255, 83, 83), rgb(247, 57, 57), red);
+}
+
+.robot span:nth-child(21) {
+  z-index: 1;
+  width: 5vw;
+  height: 10vh;
+  left: 38.8vw;
+  top: 0vh;
+  border-radius: 50%;
+  background: linear-gradient(to top, rgb(255, 83, 83), rgb(247, 57, 57), red);
+}
+
+.robot span:nth-child(22) {
+  z-index: 1;
+  width: 5vw;
+  height: 10vh;
+  left: 6.2vw;
+  top: 0vh;
+  border-radius: 50%;
+  background: linear-gradient(to top, rgb(255, 83, 83), rgb(247, 57, 57), red);
+}

@@ -11,7 +11,7 @@ body {
   white-space: nowrap;
   height: 100vh;
   font-weight: 700;
-  font-size: 10vw;
+  font-size: 15vw;
   font-family:
     system-ui,
     -apple-system,
@@ -41,17 +41,18 @@ body {
 }
 
 .redbox span {
-  position: absolute;
-  animation: slide1 15s linear infinite;
+  position: relative;
+  animation: slide1 20s linear infinite;
+  left: 160vw;
 }
 
 @keyframes slide1 {
   0% {
-    left: 100%;
+    left: 160vw;
   }
 
   100% {
-    left: -250vw;
+    left: -110vw;
   }
 }
 
@@ -69,15 +70,16 @@ body {
 }
 
 .greenbox span {
-  position: absolute;
-  animation: slide2 12.5s linear infinite;
+  position: relative;
+  animation: slide2 20s linear infinite;
+  left: 50vw;
 }
 
 @keyframes slide2 {
   0% {
-    left: 0vw;
+    left: 110vw;
   }
   100% {
-    left: -250vw;
+    left: -160vw;
   }
 }

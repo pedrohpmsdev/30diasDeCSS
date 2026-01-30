@@ -1,0 +1,140 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 100vh;
+  background-color: rgb(10, 186, 255);
+}
+
+.bird {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 50vw;
+  height: 80vh;
+  left: -5vw;
+}
+
+.bird span {
+  z-index: 2;
+  position: absolute;
+}
+
+.bird span:nth-child(1) {
+  background-color: red;
+  width: 10vw;
+  height: 20vh;
+  border-radius: 25%;
+}
+
+.bird span:nth-child(2) {
+  background: linear-gradient(to right bottom, black, red, red);
+  width: 15vw;
+  height: 35vh;
+  top: 15vh;
+  left: 27.5vw;
+  clip-path: polygon(00% 100%, 0% 2%, 100% 100%);
+}
+
+.bird span:nth-child(3) {
+  background-color: red;
+  width: 10vw;
+  border-radius: 25%;
+  height: 40vh;
+  top: 10vh;
+  left: 20vw;
+  transform: skew(-10deg);
+}
+
+.bird span:nth-child(4) {
+  background-color: red;
+  width: 11vw;
+  border-radius: 50%;
+  height: 5vh;
+  top: 9.7vh;
+  left: 23vw;
+}
+
+.bird span:nth-child(5) {
+  background-color: red;
+  width: 10vw;
+  height: 2vh;
+  top: 10vh;
+  left: 24vw;
+}
+
+.bird span:nth-child(6) {
+  z-index: 1;
+  background-color: yellow;
+  width: 5vw;
+  height: 5vh;
+  top: 18vh;
+  left: 16.1vw;
+  clip-path: polygon(100% 0%, 50% 50%, 100% 100%);
+}
+
+.bird span:nth-child(7) {
+  background-color: black;
+  width: 1vw;
+  height: 2vh;
+  border-radius: 50%;
+  top: 17vh;
+  left: 24vw;
+}
+
+.bird span:nth-child(8) {
+  background-color: yellow;
+  width: 1vw;
+  height: 10vh;
+  top: 50vh;
+  left: 24vw;
+  transform: skew(-10deg);
+}
+
+.bird span:nth-child(9) {
+  background-color: yellow;
+  width: 1vw;
+  height: 10vh;
+  top: 50vh;
+  left: 30vw;
+  transform: skew(-10deg);
+}
+
+.bird span:nth-child(10) {
+  background-color: yellow;
+  width: 14vw;
+  height: 2vh;
+  top: 60vh;
+  left: 20vw;
+}
+
+.bird span:nth-child(11) {
+  background-color: red;
+  width: 20vw;
+  height: 25vh;
+  top: 25vh;
+  left: 26.5vw;
+  border-radius: 25%;
+
+  clip-path: polygon(00% 100%, 0% 2%, 100% 100%);
+  rotate: y 180deg;
+}
+
+.bird span:nth-child(12) {
+  background: linear-gradient(red, red, black);
+  box-shadow: 10px 5px 5px rgb(0, 0, 0);
+  width: 10vw;
+  height: 25vh;
+  top: 20vh;
+  left: 28vw;
+  border-radius: 25%;
+  clip-path: polygon(00% 100%, 0% 2%, 100% 100%);
+}
