@@ -10,7 +10,7 @@ body {
   align-items: center;
   width: auto;
   height: 100vh;
-  background-color: royalblue;
+  background-color: rgb(105, 141, 248);
 }
 
 .plane {
@@ -44,15 +44,6 @@ body {
 }
 
 .plane span:nth-child(3) {
-  width: 10vw;
-  height: 20vh;
-  border-radius: 50%;
-  background-color: #d5e0e6;
-  top: 9vh;
-  left: 30.3vw;
-}
-
-.plane span:nth-child(4) {
   width: 17vw;
   height: 10vh;
   top: 63vh;
@@ -61,16 +52,16 @@ body {
   rotate: z 45deg;
 }
 
-.plane span:nth-child(5) {
+.plane span:nth-child(4) {
   width: 5vw;
-  height: 10vh;
+  height: 11vh;
   border-radius: 50%;
   background-color: #d5e0e6;
-  top: 50.15vh;
-  left: 2.3vw;
+  top: 49.5vh;
+  left: 2.5vw;
 }
 
-.plane span:nth-child(6) {
+.plane span:nth-child(5) {
   width: 5vw;
   height: 10vh;
   border-radius: 50%;
@@ -79,7 +70,7 @@ body {
   left: 14.75vw;
 }
 
-.plane span:nth-child(7) {
+.plane span:nth-child(6) {
   width: 25vw;
   height: 50vh;
   border-radius: 20%;
@@ -90,7 +81,7 @@ body {
   left: 7.3vw;
 }
 
-.plane span:nth-child(8) {
+.plane span:nth-child(7) {
   width: 5vw;
   height: 10vh;
   left: 7.5vw;
@@ -99,7 +90,7 @@ body {
   background: linear-gradient(to top, rgb(13, 102, 218), rgb(11, 195, 228));
 }
 
-.plane span:nth-child(9) {
+.plane span:nth-child(8) {
   width: 5vw;
   height: 10vh;
   left: 5.5vw;
@@ -109,7 +100,7 @@ body {
   background: linear-gradient(to top, rgb(13, 102, 218), rgb(11, 195, 228));
 }
 
-.plane span:nth-child(10) {
+.plane span:nth-child(9) {
   width: 5vw;
   height: 10vh;
   left: 9.05vw;
@@ -119,7 +110,7 @@ body {
   background: linear-gradient(to top, rgb(13, 102, 218), rgb(11, 195, 228));
 }
 
-.plane span:nth-child(11) {
+.plane span:nth-child(10) {
   width: 5vw;
   height: 5vh;
   left: 33.3vw;
@@ -128,7 +119,7 @@ body {
   background: linear-gradient(to top, rgb(13, 102, 218), rgb(11, 195, 228));
 }
 
-.plane span:nth-child(12) {
+.plane span:nth-child(11) {
   width: 2.5vw;
   height: 5vh;
   left: 32.7vw;
@@ -138,7 +129,7 @@ body {
   background: linear-gradient(to top, rgb(13, 102, 218), rgb(11, 195, 228));
 }
 
-.plane span:nth-child(13) {
+.plane span:nth-child(12) {
   width: 2.5vw;
   height: 5vh;
   left: 36.5vw;
@@ -148,43 +139,66 @@ body {
   background: linear-gradient(to top, rgb(13, 102, 218), rgb(11, 195, 228));
 }
 
+.plane span:nth-child(13) {
+  z-index: 1;
+  background-color: rgb(30, 127, 255);
+  width: 20vw;
+  height: 21vh;
+  top: 40vh;
+  left: 30vw;
+  rotate: z 45deg;
+  clip-path: polygon(00% 100%, 0% 2%, 100% 100%);
+}
+
 .plane span:nth-child(14) {
   z-index: 1;
-  width: 15vw;
-  height: 5vh;
-  left: 23vw;
-  top: 45vh;
-  rotate: z 75deg;
-  background: linear-gradient(to top, rgb(13, 102, 218), rgb(11, 195, 228));
+  background-color: rgb(30, 127, 255);
+  width: 20vw;
+  height: 20vh;
+  top: 0vh;
+  left: 9vw;
+  rotate: z 45deg;
+  clip-path: polygon(100% 0%, 100% 100%, 0% 100%);
 }
 
 .plane span:nth-child(15) {
-  z-index: 1;
-  width: 15vw;
-  height: 5vh;
-  left: 14vw;
-  top: 26vh;
-  rotate: z 15deg;
-  background: linear-gradient(to bottom, rgb(13, 102, 218), rgb(11, 195, 228));
+  z-index: 0;
+  width: 3vw;
+  height: 6vh;
+  left: 20vw;
+  top: 8vh;
+  rotate: z -45deg;
+  background: linear-gradient(to top, rgb(29, 30, 31), rgb(90, 93, 94));
 }
 
 .plane span:nth-child(16) {
-  z-index: 1;
-  background: linear-gradient(to top, rgb(13, 102, 218), rgb(11, 195, 228));
-  width: 10vw;
-  height: 30vh;
+  z-index: 0;
+  width: 3vw;
+  height: 6vh;
+  left: 21vw;
   top: 6vh;
-  left: 17vw;
-  rotate: z -75deg;
-  clip-path: polygon(00% 100%, 0% 2%, 100% 100%);
+  rotate: z -45deg;
+  border-radius: 50%;
+  background: linear-gradient(to top, rgb(29, 30, 31), rgb(90, 93, 94));
 }
 
 .plane span:nth-child(17) {
-  z-index: 1;
-  background: linear-gradient(to top, rgb(13, 102, 218), rgb(11, 195, 228));
-  width: 10vw;
-  height: 30vh;
-  top: 30vh;
-  left: 32vw;
-  clip-path: polygon(00% 100%, 0% 2%, 100% 100%);
+  z-index: 0;
+  width: 3vw;
+  height: 6vh;
+  left: 38vw;
+  top: 43vh;
+  rotate: z -45deg;
+  background: linear-gradient(to top, rgb(29, 30, 31), rgb(90, 93, 94));
+}
+
+.plane span:nth-child(18) {
+  z-index: 0;
+  width: 3vw;
+  height: 6vh;
+  left: 39vw;
+  top: 41vh;
+  rotate: z -45deg;
+  border-radius: 50%;
+  background: linear-gradient(to top, rgb(29, 30, 31), rgb(90, 93, 94));
 }
