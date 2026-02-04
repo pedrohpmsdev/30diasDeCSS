@@ -1,0 +1,233 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 100vh;
+  background-color: rgb(19, 22, 66);
+}
+
+.butterfly {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 50vw;
+  height: 80vh;
+}
+
+.butterfly span {
+  z-index: 2;
+  position: absolute;
+}
+
+.butterfly span:nth-child(1) {
+  width: 30vw;
+  height: 60vh;
+  border-radius: 20%;
+  background-color: rgb(229, 238, 240);
+}
+
+.butterfly span:nth-child(1) {
+  z-index: 2;
+  width: 4vw;
+  height: 30vh;
+  border-radius: 50%;
+  background: linear-gradient(to top, rgb(8, 8, 8), rgba(43, 41, 41, 0.986));
+}
+
+.butterfly span:nth-child(2) {
+  z-index: 1;
+  width: 20vw;
+  height: 30vh;
+  top: 29vh;
+  left: 13.5vw;
+  border-radius: 50%;
+  background: linear-gradient(to top, rgb(8, 8, 8), rgba(43, 41, 41, 0.986));
+  clip-path: polygon(0% 100%, 0% 2%, 50% 50%);
+  rotate: z -55deg;
+}
+
+.butterfly span:nth-child(3) {
+  z-index: 1;
+  width: 20vw;
+  height: 30vh;
+  top: 29vh;
+  left: 16.5vw;
+  border-radius: 50%;
+  background: linear-gradient(to top, rgb(8, 8, 8), rgba(43, 41, 41, 0.986));
+  clip-path: polygon(0% 100%, 0% 2%, 50% 50%);
+  rotate: z 235deg;
+}
+
+.butterfly span:nth-child(4) {
+  z-index: 1;
+  width: 25vw;
+  height: 40vh;
+  top: 16vh;
+  left: 13.5vw;
+  border-radius: 50%;
+  background: linear-gradient(to bottom, rgb(8, 8, 8), rgba(43, 41, 41, 0.986));
+  clip-path: polygon(0% 100%, 0% 2%, 50% 50%);
+  rotate: z 160deg;
+}
+
+.butterfly span:nth-child(5) {
+  z-index: 1;
+  width: 25vw;
+  height: 40vh;
+  top: 16vh;
+  left: 11.5vw;
+  border-radius: 50%;
+  background: linear-gradient(to top, rgb(8, 8, 8), rgba(43, 41, 41, 0.986));
+  clip-path: polygon(0% 100%, 0% 2%, 50% 50%);
+  rotate: z 20deg;
+}
+
+.butterfly span:nth-child(6) {
+  z-index: 1;
+  width: 0.2vw;
+  height: 11vh;
+  background: linear-gradient(to top, rgb(8, 8, 8), rgba(43, 41, 41, 0.986));
+
+  margin: 0vh 1.9vw;
+  top: 16vh;
+  left: 23.85vw;
+}
+
+.butterfly span:nth-child(6):before {
+  position: absolute;
+  content: "";
+  width: 1vw;
+  height: 2vh;
+  background: linear-gradient(to top, rgb(8, 8, 8), rgba(43, 41, 41, 0.986));
+
+  border-radius: 50%;
+  top: 0;
+  left: -0.4vw;
+}
+
+.butterfly span:nth-child(7) {
+  z-index: 1;
+  width: 0.2vw;
+  height: 11vh;
+  background: linear-gradient(to top, rgb(8, 8, 8), rgba(43, 41, 41, 0.986));
+
+  margin: 0vh 1.9vw;
+  top: 16vh;
+  left: 22.2vw;
+}
+
+.butterfly span:nth-child(7):before {
+  position: absolute;
+  content: "";
+  width: 1vw;
+  height: 2vh;
+  background: linear-gradient(to top, rgb(8, 8, 8), rgba(43, 41, 41, 0.986));
+
+  border-radius: 50%;
+  top: 0;
+  left: -0.4vw;
+}
+
+.butterfly span:nth-child(8) {
+  z-index: 1;
+  width: 15vw;
+  height: 25vh;
+  top: 34vh;
+  left: 15vw;
+  border-radius: 50%;
+  background: linear-gradient(to top, rgb(255, 117, 4), rgba(99, 33, 3, 0.986));
+  clip-path: polygon(0% 100%, 0% 2%, 50% 50%);
+  rotate: z -55deg;
+}
+
+.butterfly span:nth-child(9) {
+  z-index: 1;
+  width: 15vw;
+  height: 25vh;
+  top: 34vh;
+  left: 20vw;
+  border-radius: 50%;
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 117, 4),
+    rgba(99, 33, 3, 0.986)
+  );
+  clip-path: polygon(0% 100%, 0% 2%, 50% 50%);
+  rotate: z 235deg;
+}
+
+.butterfly span:nth-child(10) {
+  z-index: 1;
+  width: 20vw;
+  height: 35vh;
+  top: 17.5vh;
+  left: 17.5vw;
+  border-radius: 50%;
+  background: linear-gradient(to top, rgb(255, 117, 4), rgba(99, 33, 3, 0.986));
+  clip-path: polygon(0% 100%, 0% 2%, 50% 50%);
+  rotate: z 160deg;
+}
+
+.butterfly span:nth-child(11) {
+  z-index: 1;
+  width: 20vw;
+  height: 35vh;
+  top: 17.5vh;
+  left: 12.5vw;
+  border-radius: 50%;
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 117, 4),
+    rgba(99, 33, 3, 0.986)
+  );
+  clip-path: polygon(0% 100%, 0% 2%, 50% 50%);
+  rotate: z 20deg;
+}
+
+.butterfly span:nth-child(12) {
+  z-index: 1;
+  width: 5vw;
+  height: 10vh;
+  top: 25vh;
+  left: 14vw;
+  border-radius: 50%;
+  background: linear-gradient(to top, rgb(8, 8, 8), rgba(43, 41, 41, 0.986));
+}
+
+.butterfly span:nth-child(13) {
+  z-index: 1;
+  width: 5vw;
+  height: 10vh;
+  top: 25.6vh;
+  left: 31vw;
+  border-radius: 50%;
+  background: linear-gradient(to top, rgb(8, 8, 8), rgba(43, 41, 41, 0.986));
+}
+
+.butterfly span:nth-child(14) {
+  z-index: 1;
+  width: 3vw;
+  height: 6vh;
+  top: 51vh;
+  left: 18.5vw;
+  border-radius: 50%;
+  background: linear-gradient(to top, rgb(8, 8, 8), rgba(43, 41, 41, 0.986));
+}
+
+.butterfly span:nth-child(15) {
+  z-index: 1;
+ width: 3vw;
+  height: 6vh;
+  top: 51vh;
+  left: 28.5vw;
+  border-radius: 50%;
+  background: linear-gradient(to top, rgb(8, 8, 8), rgba(43, 41, 41, 0.986));
+}
