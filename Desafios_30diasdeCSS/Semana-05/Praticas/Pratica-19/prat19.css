@@ -1,1 +1,96 @@
- 
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 100vh;
+  background-color: rgb(100, 147, 247);
+}
+
+.flower {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 50vw;
+  height: 80vh;
+}
+
+.flower span {
+  z-index: 1;
+  position: absolute;
+}
+
+.flower span:nth-child(1) {
+  width: 1vw;
+  height: 40vh;
+  top: 40vh;
+  background-color: rgb(33, 165, 15);
+}
+
+.flower span:nth-child(2) {
+  z-index: 4;
+  width: 5vw;
+  height: 10vh;
+  border-radius: 50%;
+  top: 25vh;
+  background-color: yellow;
+}
+
+.flower span:nth-child(3) {
+  z-index: 2;
+
+  width: 8vw;
+  height: 16vh;
+  border-radius: 50%;
+  top: 28vh;
+  left: 18vw;
+  background: linear-gradient(to top right, red, rgb(238, 125, 125));
+}
+
+.flower span:nth-child(4) {
+  width: 8vw;
+  height: 16vh;
+  border-radius: 50%;
+  top: 28vh;
+  left: 24vw;
+  background: linear-gradient(to top left, red, rgb(238, 125, 125));
+}
+
+.flower span:nth-child(5) {
+  width: 8vw;
+  height: 16vh;
+  border-radius: 50%;
+  top: 17vh;
+  left: 24vw;
+  background: linear-gradient(to bottom left, red, rgb(238, 125, 125));
+}
+
+.flower span:nth-child(6) {
+  width: 8vw;
+  height: 16vh;
+  border-radius: 50%;
+  top: 17vh;
+  left: 18vw;
+  background: linear-gradient(to bottom right, red, rgb(238, 125, 125));
+}
+
+.flower span:nth-child(7) {
+  width: 100vw;
+  height: 25vh;
+  background-color: brown;
+  bottom: -8vw;
+}
+
+.flower span:nth-child(8) {
+  width: 100vw;
+  height: 8vh;
+  background-color: green;
+  bottom: 3vw;
+}

@@ -1,1 +1,154 @@
- 
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 100vh;
+  background-color: rgb(83, 96, 102);
+}
+
+.car {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 50vw;
+  height: 80vh;
+}
+
+.car span {
+  position: absolute;
+}
+
+.car span:nth-child(1) {
+  width: 20vw;
+  height: 35vh;
+  top: 25vh;
+  border-radius: 25%;
+  background-color: rgb(241, 53, 53);
+}
+
+.car span:nth-child(2) {
+  width: 15vw;
+  height: 20vh;
+  border-radius: 25%;
+  background-color: rgb(241, 53, 53);
+  left: 8vw;
+  top: 40vh;
+}
+
+.car span:nth-child(3) {
+  width: 2vw;
+  height: 8vh;
+  border-radius: 25%;
+  background-color: yellow;
+  left: 8vw;
+  top: 45vh;
+}
+
+.car span:nth-child(4) {
+  width: 6vw;
+  height: 12vh;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgb(0, 0, 0),
+    rgb(0, 0, 0),
+    rgb(109, 107, 107),
+    rgb(0, 0, 0),
+    rgb(0, 0, 0)
+  );
+  left: 12vw;
+  top: 55vh;
+}
+
+.car span:nth-child(5) {
+  width: 6vw;
+  height: 12vh;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgb(0, 0, 0),
+    rgb(0, 0, 0),
+    rgb(109, 107, 107),
+    rgb(0, 0, 0),
+    rgb(0, 0, 0)
+  );
+  left: 25vw;
+  top: 55vh;
+}
+
+.car span:nth-child(6) {
+  width: 3vw;
+  height: 6vh;
+  border-radius: 50%;
+  background: radial-gradient(circle, white);
+  left: 26.5vw;
+  top: 58vh;
+}
+
+.car span:nth-child(7) {
+  width: 3vw;
+  height: 6vh;
+  border-radius: 50%;
+  background: radial-gradient(circle, white);
+  left: 13.5vw;
+  top: 58vh;
+}
+
+.car span:nth-child(8) {
+  width: 7vw;
+  height: 14vh;
+  border-radius: 25%;
+  background: linear-gradient(
+    to left,
+    rgb(14, 147, 255),
+    rgb(64, 210, 255),
+    rgb(103, 164, 255)
+  );
+  left: 16vw;
+  top: 27vh;
+}
+
+.car span:nth-child(9) {
+  width: 7vw;
+  height: 14vh;
+  border-radius: 25%;
+  background: linear-gradient(
+    to left,
+    rgb(14, 147, 255),
+    rgb(64, 210, 255),
+    rgb(103, 164, 255)
+  );
+  left: 25vw;
+  top: 27vh;
+}
+
+.car span:nth-child(10) {
+  width: 3vw;
+  height: 9vh;
+  border-radius: 30%;
+  background: linear-gradient(
+    to left,
+    rgb(87, 88, 88),
+    rgb(56, 56, 56),
+    rgb(0, 0, 0)
+  );
+  left: 16vw;
+  top: 38vh;
+}
+
+.car span:nth-child(11) {
+  width: 3vw;
+  height: 8vh;
+  border-radius: 25%;
+  background-color: rgb(177, 1, 1);
+  left: 32vw;
+  top: 45vh;
+}

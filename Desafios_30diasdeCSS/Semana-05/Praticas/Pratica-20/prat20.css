@@ -1,1 +1,142 @@
- 
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 100vh;
+  background-color: rgb(248, 255, 144);
+}
+
+.book {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 50vw;
+  height: 80vh;
+}
+
+.book span {
+  z-index: 1;
+  position: absolute;
+}
+
+.book span:nth-child(1) {
+  width: 16vw;
+  height: 40vh;
+  background-color: rgb(88, 150, 221);
+  box-shadow: 10px 10px 0px rgb(27, 123, 233);
+  left: 26vw;
+}
+
+.book span:nth-child(2) {
+  width: 16.5vw;
+  height: 40vh;
+  background-color: rgb(88, 150, 221);
+  box-shadow: -10px 10px 0px rgb(27, 123, 233);
+  left: 10vw;
+}
+
+.book span:nth-child(3) {
+  width: 14.7vw;
+  z-index: 2;
+  height: 35vh;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 10px 10px 0px rgb(177, 169, 169);
+  left: 26.3vw;
+}
+
+.book span:nth-child(4) {
+  width: 15.2vw;
+  z-index: 2;
+  height: 35vh;
+  background-color: rgb(255, 255, 255);
+  box-shadow: -10px 10px 0px rgb(177, 169, 169);
+  left: 11vw;
+}
+
+.book span:nth-child(5) {
+  width: 0.1vw;
+  height: 35vh;
+  z-index: 3;
+  background-color: rgb(145, 142, 142);
+  left: 26.2vw;
+}
+
+.book span:nth-child(6) {
+  width: 10vw;
+  height: 0.5vh;
+  z-index: 3;
+  background-color: black;
+  left: 13.5vw;
+  top: 28vh;
+}
+
+.book span:nth-child(7) {
+  width: 10vw;
+  height: 0.5vh;
+  z-index: 3;
+  background-color: black;
+  left: 13.5vw;
+  top: 35vh;
+}
+
+.book span:nth-child(8) {
+  width: 10vw;
+  height: 0.5vh;
+  z-index: 3;
+  background-color: black;
+  left: 13.5vw;
+  top: 42vh;
+}
+
+.book span:nth-child(9) {
+  width: 10vw;
+  height: 0.5vh;
+  z-index: 3;
+  background-color: black;
+  left: 13.5vw;
+  top: 49vh;
+}
+
+.book span:nth-child(10) {
+  width: 10vw;
+  height: 0.5vh;
+  z-index: 3;
+  background-color: black;
+  left: 28.5vw;
+  top: 28vh;
+}
+
+.book span:nth-child(11) {
+  width: 10vw;
+  height: 0.5vh;
+  z-index: 3;
+  background-color: black;
+  left: 28.5vw;
+  top: 35vh;
+}
+
+.book span:nth-child(12) {
+  width: 10vw;
+  height: 0.5vh;
+  z-index: 3;
+  background-color: black;
+  left: 28.5vw;
+  top: 42vh;
+}
+
+.book span:nth-child(13) {
+  width: 10vw;
+  height: 0.5vh;
+  z-index: 3;
+  background-color: black;
+  left: 28.5vw;
+  top: 49vh;
+}

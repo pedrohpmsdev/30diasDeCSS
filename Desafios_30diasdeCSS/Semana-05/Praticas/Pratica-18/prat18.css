@@ -1,1 +1,153 @@
- 
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 100vh;
+  background-color: rgb(116, 88, 88);
+}
+
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 50vw;
+  height: 80vh;
+}
+
+.clock span {
+  z-index: 4;
+  display: flex;
+  position: absolute;
+}
+
+.clock span:nth-child(1) {
+  width: 20vw;
+  height: 40vh;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.clock span:nth-child(2) {
+  width: 15vw;
+  height: 30vh;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+}
+
+.clock span:nth-child(3) {
+  width: 1vw;
+  height: 16vh;
+  top: 26vh;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  transform-origin: bottom;
+  animation: time1 60s linear infinite;
+}
+
+@keyframes time1 {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 30deg;
+  }
+}
+
+.clock span:nth-child(4) {
+  width: 1vw;
+  height: 10vh;
+  top: 41.5vh;
+  transform-origin: top;
+  transform: rotate(180deg);
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  animation: time2 60s steps(60) infinite;
+}
+
+@keyframes time2 {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 360deg;
+  }
+}
+
+.clock span:nth-child(5) {
+  z-index: 1;
+  width: 20vw;
+  height: 30vh;
+  top: 55vh;
+  background-color: rgb(162, 192, 201);
+  clip-path: polygon(50% 0%, 100% 50%, 50% 50%, 0% 50%);
+}
+
+.clock span:nth-child(6) {
+  z-index: 1;
+  rotate: 155deg;
+  width: 13vw;
+  height: 28vh;
+  border-radius: 50%;
+  top: 12vh;
+  left: 23vh;
+  background-color: yellow;
+}
+
+.clock span:nth-child(7) {
+  z-index: 1;
+  rotate: 250deg;
+  width: 13vw;
+  height: 28vh;
+  border-radius: 50%;
+  top: 12vh;
+  left: 53vh;
+  background-color: yellow;
+}
+
+.clock span:nth-child(8) {
+  z-index: 2;
+  width: 2vw;
+  height: 10vh;
+  top: 20vh;
+  left: 34vh;
+  rotate: -45deg;
+  background-color: yellow;
+}
+
+.clock span:nth-child(9) {
+  z-index: 2;
+  width: 2vw;
+  height: 10vh;
+  top: 20vh;
+  rotate: 45deg;
+  left: 65vh;
+  background-color: yellow;
+}
+
+.clock span:nth-child(10) {
+  z-index: 1;
+  width: 10vw;
+  height: 50vh;
+  top: 10vh;
+  rotate: 45deg;
+  left: 26vh;
+  background-color: rgb(116, 88, 88);
+}
+
+.clock span:nth-child(11) {
+  z-index: 1;
+  width: 10vw;
+  height: 40vh;
+  top: 10vh;
+  rotate: -45deg;
+  left: 51vh;
+  background-color: rgb(116, 88, 88);
+}
