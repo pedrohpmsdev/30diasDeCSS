@@ -1,0 +1,139 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 100vh;
+  background-color: rgb(9, 14, 48);
+}
+
+.diamond {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.diamond span {
+  position: absolute;
+}
+
+.diamond span:nth-child(1) {
+  width: 2vw;
+  height: 4vh;
+  background-color: rgb(235, 69, 69);
+  left: -2.4vw;
+  top: -1.1vh;
+  transform: rotate(45deg);
+  animation: rotranslate2 1s linear infinite;
+}
+
+.diamond span:nth-child(2) {
+  width: 2vw;
+  height: 4vh;
+  background-color: rgb(235, 224, 69);
+  top: -4vh;
+  transform: rotate(45deg);
+  animation: rotranslate1 1s linear infinite;
+}
+
+.diamond span:nth-child(3) {
+  width: 2vw;
+  height: 4vh;
+  background-color: rgb(85, 233, 80);
+  left: 0.4vw;
+  top: -1.1vh;
+  transform: rotate(45deg);
+  animation: rotranslate3 1s linear infinite;
+}
+
+.diamond span:nth-child(4) {
+  width: 2vw;
+  height: 4vh;
+  background-color: rgb(88, 103, 238);
+  top: 1.7vh;
+  transform: rotate(45deg);
+  animation: rotranslate4 1s linear infinite;
+}
+
+@keyframes rotranslate1 {
+  0% {
+    translate: 0px 0vh;
+    rotate: 0deg;
+  }
+  50% {
+    translate: 0px -4vh;
+    rotate: 90deg;
+  }
+  90% {
+    translate: 0px 0vh;
+    rotate: 90deg;
+  }
+  100% {
+    translate: 0px 0vh;
+    rotate: 90deg;
+  }
+}
+
+@keyframes rotranslate2 {
+  0% {
+    translate: 0px 0vh;
+    rotate: 0deg;
+  }
+  50% {
+    translate: -2vw 0vh;
+    rotate: 90deg;
+  }
+  90% {
+    translate: 0px 0vh;
+    rotate: 90deg;
+  }
+  100% {
+    translate: 0px 0vh;
+    rotate: 90deg;
+  }
+}
+
+@keyframes rotranslate3 {
+  0% {
+    translate: 0px 0vh;
+    rotate: 0deg;
+  }
+  50% {
+    translate: 2vw 0vh;
+    rotate: 90deg;
+  }
+  90% {
+    translate: 0px 0vh;
+    rotate: 90deg;
+  }
+  100% {
+    translate: 0px 0vh;
+    rotate: 90deg;
+  }
+}
+
+@keyframes rotranslate4 {
+  0% {
+    translate: 0px 0vh;
+    rotate: 0deg;
+  }
+  50% {
+    translate: 0px 4vh;
+    rotate: 90deg;
+  }
+  90% {
+    translate: 0px 0vh;
+    rotate: 90deg;
+  }
+  100% {
+    translate: 0px 0vh;
+    rotate: 90deg;
+  }
+}
