@@ -6,84 +6,195 @@
 body {
   box-sizing: border-box;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: cornflowerblue;
-}
-
-.city {
+  justify-content: space-evenly;
+  align-items: flex-end;
   width: auto;
-  display: grid;
-  grid-template-columns: 2vw 2vw 2vw 2vw 2vw 2vw 2vw 2vw;
-  gap: 9vw;
-  align-items: center;
-  margin-left: -8vw;
   height: 100vh;
-
-  &.building {
-    display: grid;
-    grid-template-columns: 2vw 2vw;
-  }
+  background-color: rgb(5, 19, 46);
 }
 
-.city span {
+span {
   width: 2vw;
   height: 4vh;
   background-color: yellow;
+  box-shadow: 0px 0px 20px yellow;
 }
 
-.city div:nth-child(1) {
+.building1 {
+  display: grid;
+  grid-template-columns: 2vw 2vw;
+  justify-content: space-evenly;
+  align-content: space-evenly;
   width: 10vw;
   height: 80vh;
-  margin-bottom: -20vh;
   background-color: gray;
 }
 
-.city div:nth-child(2) {
+.building1 span:nth-child(1) {
+  background-color: rgb(44, 43, 43);
+  box-shadow: none;
+}
+.building1 span:nth-child(6) {
+  background-color: rgb(44, 43, 43);
+  box-shadow: none;
+}
+
+.building2 {
+  display: grid;
+  grid-template-columns: 2vw 2vw;
+  justify-content: space-evenly;
+  align-content: space-evenly;
   width: 10vw;
   height: 60vh;
-  margin-bottom: -40vh;
   background-color: gray;
 }
 
-.city div:nth-child(3) {
+.building2 span:nth-child(1) {
+  background-color: rgb(44, 43, 43);
+  box-shadow: none;
+
+  width: 5vw;
+}
+.building2 span:nth-child(2) {
+  background-color: rgb(44, 43, 43);
+  box-shadow: none;
+}
+
+.building3 {
+  display: grid;
+  grid-template-columns: 2vw 2vw;
+  justify-content: space-evenly;
+  align-content: space-evenly;
   width: 10vw;
   height: 70vh;
-  margin-bottom: -30vh;
   background-color: gray;
 }
 
-.city div:nth-child(4) {
+.building3 span:nth-child(2) {
+  background-color: rgb(44, 43, 43);
+  box-shadow: none;
+}
+.building3 span:nth-child(4) {
+  background-color: rgb(44, 43, 43);
+  box-shadow: none;
+}
+.building3 span:nth-child(5) {
+  background-color: rgb(44, 43, 43);
+  box-shadow: none;
+}
+.building3 span:nth-child(6) {
+  background-color: rgb(44, 43, 43);
+  box-shadow: none;
+}
+.building3 span:nth-child(7) {
+  background-color: rgb(44, 43, 43);
+  box-shadow: none;
+}
+
+.building4 {
+  display: grid;
+  grid-template-columns: 2vw 2vw;
+  justify-content: space-evenly;
+  align-content: space-evenly;
   width: 10vw;
   height: 40vh;
-  margin-bottom: -60vh;
   background-color: gray;
 }
 
-.city div:nth-child(5) {
+.building5 {
+  display: grid;
+  grid-template-columns: 2vw 2vw;
+  justify-content: space-evenly;
+  align-content: space-evenly;
   width: 10vw;
   height: 80vh;
-  margin-bottom: -20vh;
   background-color: gray;
 }
 
-.city div:nth-child(6) {
+.building5 span:nth-child(1) {
+  background-color: rgb(44, 43, 43);
+  box-shadow: none;
+}
+.building5 span:nth-child(3) {
+  background-color: rgb(44, 43, 43);
+  box-shadow: none;
+}
+.building5 span:nth-child(6) {
+  background-color: rgb(44, 43, 43);
+  box-shadow: none;
+}
+.building5 span:nth-child(8) {
+  background-color: rgb(44, 43, 43);
+  box-shadow: none;
+}
+.building5 span:nth-child(9) {
+  background-color: rgb(44, 43, 43);
+  box-shadow: none;
+}
+.building5 span:nth-child(11) {
+  background-color: rgb(44, 43, 43);
+  box-shadow: none;
+}
+
+.building6 {
+  display: grid;
+  grid-template-columns: 2vw 2vw;
+  justify-content: space-evenly;
+  align-content: space-evenly;
   width: 10vw;
   height: 50vh;
-  margin-bottom: -50vh;
   background-color: gray;
 }
 
-.city div:nth-child(7) {
-  width: 10vw;
+.building6 span {
+  background-color: rgb(44, 43, 43);
+  box-shadow: none;
+}
+
+.building7 {
+  display: grid;
+  grid-template-columns: 2vw 2vw 2vw;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  width: 15vw;
   height: 90vh;
-  margin-bottom: -10vh;
   background-color: gray;
 }
 
-.city div:nth-child(8) {
-  width: 10vw;
+.building7 span:nth-child(1) {
+  background-color: rgb(44, 43, 43);
+  box-shadow: none;
+}
+.building7 span:nth-child(5) {
+  background-color: rgb(44, 43, 43);
+  box-shadow: none;
+}
+.building7 span:nth-child(7) {
+  background-color: rgb(44, 43, 43);
+  box-shadow: none;
+}
+.building7 span:nth-child(8) {
+  background-color: rgb(44, 43, 43);
+  box-shadow: none;
+}
+.building7 span:nth-child(9) {
+  background-color: rgb(44, 43, 43);
+  box-shadow: none;
+}
+.building7 span:nth-child(13) {
+  background-color: rgb(44, 43, 43);
+  box-shadow: none;
+}
+
+.building8 {
+  display: grid;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  width: 8vw;
   height: 60vh;
-  margin-bottom: -40vh;
   background-color: gray;
+}
+
+.building8 span {
+  width: 5vw;
 }
