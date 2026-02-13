@@ -11,30 +11,60 @@ body {
   width: auto;
   height: 100vh;
   font-size: 3vw;
+  gap: 8vw;
   background-color: rgb(36, 36, 36);
 }
 
-.main {
-  width: 60vw;
-  height: 80vh;
+.icon {
+  color: rgb(83, 83, 83);
+  cursor: pointer;
+  width: 3vw;
+  height: 5vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   position: relative;
 }
 
-.main button {
-  font-size: 3vw;
-  cursor: pointer;
-  color: rgb(77, 75, 75);
-background-color: transparent;
-  display: flex;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  border: 0;
-  width: 3.7vw;
-  height: 8.5vh;
-  border-radius: 50%;
-  transition-duration: 0.5s;
+#button1:checked + .icon,
+#button2:checked + .icon,
+#button3:checked + .icon,
+#button4:checked + .icon,
+#button5:checked + .icon {
+  animation: colors 10s linear infinite;
+}
+
+@keyframes colors {
+  0% {
+    color: red;
+    text-shadow: 0px 0px 5px red;
+  }
+  15% {
+    color: orange;
+    text-shadow: 0px 0px 5px orange;
+  }
+  30% {
+    color: yellow;
+    text-shadow: 0px 0px 5px yellow;
+  }
+  45% {
+    color: rgb(13, 214, 13);
+    text-shadow: 0px 0px 5px rgb(13, 214, 13);
+  }
+  60% {
+    color: rgb(28, 163, 247);
+    text-shadow: 0px 0px 5px rgb(28, 163, 247);
+  }
+  75% {
+    color: blue;
+    text-shadow: 0px 0px 5px blue;
+  }
+  90% {
+    color: magenta;
+    text-shadow: 0px 0px 5px magenta;
+  }
+  100% {
+    color: red;
+    text-shadow: 0px 0px 5px red;
+  }
 }

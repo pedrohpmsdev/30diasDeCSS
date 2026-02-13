@@ -12,7 +12,6 @@ body {
   white-space: pre-wrap;
   flex-wrap: wrap;
   height: 100vh;
-  background-color: rgb(243, 57, 57);
   font-family:
     system-ui,
     -apple-system,
@@ -28,7 +27,17 @@ body {
   color: white;
   font-size: 12vh;
   font-weight: 600;
-  animation: colors 20s linear infinite;
+}
+
+.box {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  animation: colors 10s linear infinite;
 }
 
 @keyframes colors {
@@ -38,13 +47,4 @@ body {
   to {
     filter: hue-rotate(360deg);
   }
-}
-
-.box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  width: 25vw;
-  height: 30vh;
 }
