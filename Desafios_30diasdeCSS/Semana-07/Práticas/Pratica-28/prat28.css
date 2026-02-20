@@ -1,0 +1,136 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: auto;
+  height: 100vh;
+  background-color: rgb(224, 224, 224);
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  perspective: 4000px;
+}
+
+.pcPieces1 {
+  border-radius: 5%;
+  position: absolute;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35vw;
+  height: 45vh;
+  top: 5vh;
+  border: 1px solid black;
+
+  background: linear-gradient(
+    to bottom,
+    rgb(139, 139, 139),
+    rgb(58, 58, 58),
+    rgb(43, 43, 43)
+  );
+}
+
+.pcPieces2 {
+  border-radius: 5%;
+  position: absolute;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32vw;
+  height: 40vh;
+  top: 7.5vh;
+  background: linear-gradient(
+    to bottom,
+    rgb(80, 149, 240),
+    rgb(41, 132, 252),
+    rgb(8, 115, 255)
+  );
+  box-shadow: 0px 0px 25px rgb(152, 185, 247);
+}
+
+.pcPieces3 {
+  border-radius: 5%;
+  position: absolute;
+
+  display: grid;
+  grid-template-columns: 2vw 2vw 2vw 2vw 2vw 2vw 2vw 2vw;
+  grid-template-rows: 2vw 2vw 2vw 2vw 2vw 2vw 2vw 2vw;
+  align-items: center;
+  width: 36.2vw;
+  height: 50vh;
+  top: 43vh;
+  border: 1px solid black;
+  background: linear-gradient(
+    to bottom,
+    rgb(119, 119, 119),
+    rgb(58, 58, 58),
+    rgb(43, 43, 43)
+  );
+  transform: rotateX(45deg);
+}
+
+.keyboard {
+  border-radius: 5%;
+  position: absolute;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  grid-template-columns: 2vw 2vw 2vw 2vw 2vw 2vw 2vw 2vw 2vw;
+  grid-template-rows: 2vw 2vw 2vw 2vw 2vw;
+  gap: 1vw;
+  width: 36.2vw;
+  height: 55vh;
+  top: 43vh;
+
+  transform: rotateX(45deg);
+}
+
+.key {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  border-radius: 5%;
+  width: 2vw;
+  height: 4vh;
+  margin-top: -12.5vh;
+  background-color: rgb(150, 150, 130);
+}
+
+.touchpad {
+  position: absolute;
+  width: 10vw;
+  height: 13vh;
+  margin-top: 63vh;
+  border-radius: 5%;
+  background-color: rgb(24, 24, 24);
+  transform: rotateX(45deg);
+}
+
+.space {
+  position: absolute;
+  width: 9vw;
+  height: 4vh;
+  margin-top: 48vh;
+  border-radius: 5%;
+  background-color: rgb(150, 150, 130);
+  transform: rotateX(45deg);
+}
