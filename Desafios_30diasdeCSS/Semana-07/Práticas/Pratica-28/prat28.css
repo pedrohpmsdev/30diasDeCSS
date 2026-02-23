@@ -134,3 +134,13 @@ body {
   background-color: rgb(150, 150, 130);
   transform: rotateX(45deg);
 }
+
+.key1 {
+  visibility: hiddden;
+}
+.key2 {
+  visibility: hiddden;
+}
+.key3 {
+  visibility: hiddden;
+}

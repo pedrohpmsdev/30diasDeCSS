@@ -1,1 +1,249 @@
- 
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  width: auto;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.creeper {
+  display: grid;
+  grid-template-columns: 4rem 4rem 4rem 4rem 4rem 4rem 4rem 4rem;
+}
+
+.creeper span {
+  background-color: rgb(43, 43, 43);
+  width: 4rem;
+  height: 4rem;
+}
+
+.creeper span:nth-child(1) {
+  background-color: rgb(4, 150, 4);
+}
+
+.creeper span:nth-child(10) {
+  background-color: rgb(4, 150, 4);
+}
+
+.creeper span:nth-child(34) {
+  background-color: rgb(4, 150, 4);
+}
+
+.creeper span:nth-child(40) {
+  background-color: rgb(4, 150, 4);
+}
+
+.creeper span:nth-child(47) {
+  background-color: rgb(4, 150, 4);
+}
+
+.creeper span:nth-child(40) {
+  background-color: rgb(4, 150, 4);
+}
+
+.creeper span:nth-child(58) {
+  background-color: rgb(4, 150, 4);
+}
+
+.creeper span:nth-child(61) {
+  background-color: rgb(4, 150, 4);
+}
+
+.creeper span:nth-child(64) {
+  background-color: rgb(4, 150, 4);
+}
+
+.creeper span:nth-child(2) {
+  background-color: rgb(1, 107, 1);
+}
+
+.creeper span:nth-child(8) {
+  background-color: rgb(1, 107, 1);
+}
+
+.creeper span:nth-child(9) {
+  background-color: rgb(1, 107, 1);
+}
+
+.creeper span:nth-child(13) {
+  background-color: rgb(1, 107, 1);
+}
+
+.creeper span:nth-child(3) {
+  background-color: rgb(12, 116, 12);
+}
+
+.creeper span:nth-child(11) {
+  background-color: rgb(12, 116, 12);
+}
+
+.creeper span:nth-child(17) {
+  background-color: rgb(12, 116, 12);
+}
+
+.creeper span:nth-child(25) {
+  background-color: rgb(12, 116, 12);
+}
+
+.creeper span:nth-child(4) {
+  background-color: rgb(116, 116, 116);
+}
+
+.creeper span:nth-child(16) {
+  background-color: rgb(116, 116, 116);
+}
+
+.creeper span:nth-child(5) {
+  background-color: rgb(168, 168, 168);
+}
+
+.creeper span:nth-child(24) {
+  background-color: rgb(168, 168, 168);
+}
+
+.creeper span:nth-child(38) {
+  background-color: rgb(168, 168, 168);
+}
+
+.creeper span:nth-child(48) {
+  background-color: rgb(168, 168, 168);
+}
+
+.creeper span:nth-child(49) {
+  background-color: rgb(168, 168, 168);
+}
+
+.creeper span:nth-child(6) {
+  background-color: rgb(80, 255, 80);
+}
+
+.creeper span:nth-child(20) {
+  background-color: rgb(80, 255, 80);
+}
+
+.creeper span:nth-child(35) {
+  background-color: rgb(80, 255, 80);
+}
+
+.creeper span:nth-child(41) {
+  background-color: rgb(80, 255, 80);
+}
+
+.creeper span:nth-child(57) {
+  background-color: rgb(80, 255, 80);
+}
+
+.creeper span:nth-child(60) {
+  background-color: rgb(80, 255, 80);
+}
+
+.creeper span:nth-child(7) {
+  background-color: rgb(48, 134, 48);
+}
+
+.creeper span:nth-child(28) {
+  background-color: rgb(48, 134, 48);
+}
+
+.creeper span:nth-child(12) {
+  background-color: rgb(48, 134, 48);
+}
+
+.creeper span:nth-child(32) {
+  background-color: rgb(48, 134, 48);
+}
+
+.creeper span:nth-child(33) {
+  background-color: rgb(48, 134, 48);
+}
+
+.creeper span:nth-child(50) {
+  background-color: rgb(48, 134, 48);
+}
+
+.creeper span:nth-child(55) {
+  background-color: rgb(48, 134, 48);
+}
+
+.creeper span:nth-child(14) {
+  background-color: rgb(73, 173, 73);
+}
+
+.creeper span:nth-child(21) {
+  background-color: rgb(73, 173, 73);
+}
+
+.creeper span:nth-child(15) {
+  background-color: rgb(36, 107, 36);
+}
+
+.creeper span:nth-child(15) {
+  background-color: rgb(36, 107, 36);
+}
+
+.creeper span:nth-child(15) {
+  background-color: rgb(36, 107, 36);
+}
+
+.creeper span:nth-child(27) {
+  background-color: rgb(0, 0, 0);
+}
+
+.creeper span:nth-child(30) {
+  background-color: rgb(0, 0, 0);
+}
+
+.creeper span:nth-child(44) {
+  background-color: rgb(0, 0, 0);
+}
+
+.creeper span:nth-child(45) {
+  background-color: rgb(0, 0, 0);
+}
+
+.creeper span:nth-child(51) {
+  background-color: rgb(0, 0, 0);
+}
+
+.creeper span:nth-child(52) {
+  background-color: rgb(0, 0, 0);
+}
+
+.creeper span:nth-child(53) {
+  background-color: rgb(0, 0, 0);
+}
+
+.creeper span:nth-child(54) {
+  background-color: rgb(0, 0, 0);
+}
+
+.creeper span:nth-child(39) {
+  background-color: rgb(4, 97, 4);
+}
+
+.creeper span:nth-child(39) {
+  background-color: rgb(4, 97, 4);
+}
+
+.creeper span:nth-child(56) {
+  background-color: rgb(4, 97, 4);
+}
+
+.creeper span:nth-child(63) {
+  background-color: rgb(4, 97, 4);
+}
+
+.creeper span:nth-child(29) {
+  background-color: rgb(23, 65, 23);
+}
+
+.creeper span:nth-child(42) {
+  background-color: rgb(23, 65, 23);
+}

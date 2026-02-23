@@ -1,1 +1,25 @@
- 
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 100vh;
+}
+
+.jogodavelha {
+  display: grid;
+  grid-template-columns: 10rem 10rem 10rem;
+  border: 1px solid black;
+}
+
+.jogodavelha span {
+  width: 10rem;
+  height: 10rem;
+  border: 1px solid black;
+}

@@ -1,0 +1,133 @@
+.margin {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(29, 27, 27);
+}
+
+.firework1 {
+  display: flex;
+}
+
+.firework1 span {
+  transform-origin: bottom;
+}
+
+.firework1 span:nth-child(1) {
+  background-color: yellow;
+  width: 0.3rem;
+  height: 6rem;
+  animation: test 2s linear infinite;
+}
+
+.firework1 span:nth-child(2) {
+  background-color: yellow;
+  width: 0.3rem;
+  height: 6rem;
+  transform: rotateZ(30deg);
+  animation: test 2s linear infinite;
+}
+
+.firework1 span:nth-child(3) {
+  background-color: yellow;
+  width: 0.3rem;
+  height: 6rem;
+  transform: rotateZ(60deg);
+  animation: test 2s linear infinite;
+}
+
+.firework1 span:nth-child(4) {
+  background-color: yellow;
+  width: 0.3rem;
+  height: 6rem;
+  transform: rotateZ(90deg);
+  animation: test 2s linear infinite;
+}
+
+.firework1 span:nth-child(5) {
+  background-color: yellow;
+  width: 0.3rem;
+  height: 6rem;
+  transform: rotateZ(120deg);
+  animation: test 2s linear infinite;
+}
+
+.firework1 span:nth-child(6) {
+  background-color: yellow;
+  width: 0.3rem;
+  height: 6rem;
+  transform: rotateZ(150deg);
+  animation: test 2s linear infinite;
+}
+
+.firework1 span:nth-child(7) {
+  background-color: yellow;
+  width: 0.3rem;
+  height: 6rem;
+  transform: rotateZ(180deg);
+  animation: test 2s linear infinite;
+}
+
+.firework1 span:nth-child(8) {
+  background-color: yellow;
+  width: 0.3rem;
+  height: 6rem;
+  transform: rotateZ(210deg);
+  animation: test 2s linear infinite;
+}
+
+.firework1 span:nth-child(9) {
+  background-color: yellow;
+  width: 0.3rem;
+  height: 6rem;
+  transform: rotateZ(240deg);
+  animation: test 2s linear infinite;
+}
+
+.firework1 span:nth-child(10) {
+  background-color: yellow;
+  width: 0.3rem;
+  height: 6rem;
+  transform: rotateZ(270deg);
+  animation: test 2s linear infinite;
+}
+
+.firework1 span:nth-child(11) {
+  background-color: yellow;
+  width: 0.3rem;
+  height: 6rem;
+  transform: rotateZ(300deg);
+  animation: test 2s linear infinite;
+}
+
+.firework1 span:nth-child(12) {
+  background-color: yellow;
+  width: 0.3rem;
+  height: 6rem;
+  transform: rotateZ(330deg);
+  animation: test 2s linear infinite;
+}
+
+/* @keyframes test {
+  0% {
+    width: 2rem;
+    transform-origin: right;
+  }
+
+  50% {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  100% {
+    width: 2rem;
+    height: 0rem;
+  }
+} */
+ 
