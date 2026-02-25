@@ -18,8 +18,12 @@ body {
   border: 1px solid black;
 }
 
-.jogodavelha span {
+.jogodavelha label {
   width: 10rem;
   height: 10rem;
   border: 1px solid black;
+}
+
+input[type="radio"]:checked {
+  background-image: url(./assets/image.png);
 }

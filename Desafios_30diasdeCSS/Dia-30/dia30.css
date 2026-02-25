@@ -11,123 +11,219 @@ body {
   background-color: rgb(29, 27, 27);
 }
 
+.line {
+  position: absolute;
+  transform-origin: top;
+  animation: boom1 4s ease-in-out infinite;
+  width: 0.3rem;
+  height: 0;
+  background-color: yellow;
+}
+
+.line:nth-child(1) {
+  transform: translateY(20px);
+}
+
+.line:nth-child(2) {
+  transform: rotate(30deg) translateY(20px);
+}
+
+.line:nth-child(3) {
+  transform: rotateZ(60deg) translateY(20px);
+}
+
+.line:nth-child(4) {
+  transform: rotateZ(90deg) translateY(20px);
+}
+
+.line:nth-child(5) {
+  transform: rotateZ(120deg) translateY(20px);
+}
+
+.line:nth-child(6) {
+  transform: rotateZ(150deg) translateY(20px);
+}
+
+.line:nth-child(7) {
+  transform: rotateZ(180deg) translateY(20px);
+}
+
+.line:nth-child(8) {
+  transform: rotateZ(210deg) translateY(20px);
+}
+
+.line:nth-child(9) {
+  transform: rotateZ(240deg) translateY(20px);
+}
+
+.line:nth-child(10) {
+  transform: rotateZ(270deg) translateY(20px);
+}
+
+.line:nth-child(11) {
+  transform: rotateZ(300deg) translateY(20px);
+}
+
+.line:nth-child(12) {
+  transform: rotateZ(330deg) translateY(20px);
+}
+
 .firework1 {
-  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
-.firework1 span {
-  transform-origin: bottom;
+.firework2 {
+  position: absolute;
+  top: 60vh;
+  left: 70vw;
 }
 
-.firework1 span:nth-child(1) {
-  background-color: yellow;
-  width: 0.3rem;
-  height: 6rem;
-  animation: test 2s linear infinite;
+.firework2 span {
+  position: absolute;
+  transform-origin: top;
+  animation: boom2 4s ease-in-out infinite;
+  width: 0.2rem;
+  height: 3rem;
+  background-color: rgb(255, 0, 0);
 }
 
-.firework1 span:nth-child(2) {
-  background-color: yellow;
-  width: 0.3rem;
-  height: 6rem;
-  transform: rotateZ(30deg);
-  animation: test 2s linear infinite;
+.firework3 {
+  position: absolute;
+  top: 30vh;
+  left: 30vw;
 }
 
-.firework1 span:nth-child(3) {
-  background-color: yellow;
-  width: 0.3rem;
-  height: 6rem;
-  transform: rotateZ(60deg);
-  animation: test 2s linear infinite;
+.firework3 span {
+  position: absolute;
+  transform-origin: top;
+  animation: boom3 4s ease-in-out infinite;
+  width: 0.2rem;
+  height: 4rem;
+  background-color: rgb(0, 0, 255);
 }
 
-.firework1 span:nth-child(4) {
-  background-color: yellow;
-  width: 0.3rem;
-  height: 6rem;
-  transform: rotateZ(90deg);
-  animation: test 2s linear infinite;
+.firework1 .line::before {
+  content: "";
+  position: absolute;
+  transform-origin: top;
+  inset: 0;
+  scale: 1.5;
+  transform: translateY(-2px);
+  height: 1rem;
+  background-color: rgb(29, 27, 27);
+  animation: boomBlack1 4s ease-in-out infinite;
 }
 
-.firework1 span:nth-child(5) {
-  background-color: yellow;
-  width: 0.3rem;
-  height: 6rem;
-  transform: rotateZ(120deg);
-  animation: test 2s linear infinite;
+.firework2 .line::before {
+  content: "";
+  position: absolute;
+  transform-origin: top;
+  inset: 0;
+  scale: 1.5;
+  transform: translateY(-2px);
+  height: 1rem;
+  background-color: rgb(29, 27, 27);
+  animation: boomBlack2 4s ease-in-out infinite;
 }
 
-.firework1 span:nth-child(6) {
-  background-color: yellow;
-  width: 0.3rem;
-  height: 6rem;
-  transform: rotateZ(150deg);
-  animation: test 2s linear infinite;
+.firework3 .line::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  scale: 1.5;
+  transform: translateY(-2px);
+  transform-origin: top;
+  height: 1rem;
+  background-color: rgb(29, 27, 27);
+  animation: boomBlack3 4s ease-in-out infinite;
 }
 
-.firework1 span:nth-child(7) {
-  background-color: yellow;
-  width: 0.3rem;
-  height: 6rem;
-  transform: rotateZ(180deg);
-  animation: test 2s linear infinite;
-}
-
-.firework1 span:nth-child(8) {
-  background-color: yellow;
-  width: 0.3rem;
-  height: 6rem;
-  transform: rotateZ(210deg);
-  animation: test 2s linear infinite;
-}
-
-.firework1 span:nth-child(9) {
-  background-color: yellow;
-  width: 0.3rem;
-  height: 6rem;
-  transform: rotateZ(240deg);
-  animation: test 2s linear infinite;
-}
-
-.firework1 span:nth-child(10) {
-  background-color: yellow;
-  width: 0.3rem;
-  height: 6rem;
-  transform: rotateZ(270deg);
-  animation: test 2s linear infinite;
-}
-
-.firework1 span:nth-child(11) {
-  background-color: yellow;
-  width: 0.3rem;
-  height: 6rem;
-  transform: rotateZ(300deg);
-  animation: test 2s linear infinite;
-}
-
-.firework1 span:nth-child(12) {
-  background-color: yellow;
-  width: 0.3rem;
-  height: 6rem;
-  transform: rotateZ(330deg);
-  animation: test 2s linear infinite;
-}
-
-/* @keyframes test {
+@keyframes boom1 {
   0% {
-    width: 2rem;
-    transform-origin: right;
-  }
-
-  50% {
-    width: 2rem;
-    height: 2rem;
-  }
-
-  100% {
-    width: 2rem;
     height: 0rem;
   }
-} */
- 
+  25% {
+    height: 6rem;
+  }
+  50% {
+    height: 6rem;
+  }
+  100% {
+    height: 6rem;
+  }
+}
+
+@keyframes boom2 {
+  0% {
+    height: 0rem;
+  }
+  25% {
+    height: 0rem;
+  }
+  50% {
+    height: 3rem;
+  }
+  100% {
+    height: 3rem;
+  }
+}
+
+@keyframes boom3 {
+  0% {
+    height: 0rem;
+  }
+  25% {
+    height: 0rem;
+  }
+  50% {
+    height: 0rem;
+  }
+  85% {
+    height: 4rem;
+  }
+  100% {
+    height: 4rem;
+  }
+}
+
+@keyframes boomBlack1 {
+  0% {
+    height: 0rem;
+  }
+  60% {
+    height: 6rem;
+  }
+  100% {
+    height: 6rem;
+  }
+}
+
+@keyframes boomBlack2 {
+  0% {
+    height: 0rem;
+  }
+  25% {
+    height: 0rem;
+  }
+  90% {
+    height: 3rem;
+  }
+  100% {
+    height: 3rem;
+  }
+}
+
+@keyframes boomBlack3 {
+  0% {
+    height: 0rem;
+  }
+
+  60% {
+    height: 0rem;
+  }
+  100% {
+    height: 4rem;
+  }
+}
